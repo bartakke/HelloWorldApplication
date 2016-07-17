@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="training.yugenspark.com.helloworldapplication.MainActivity"
+    >
+    <item android:id="@+id/action_trial"
+
+        android:title="Trial"
+        android:orderInCategory="500"
+        app:showAsAction="ifRoom|never"
+
+        />
+
+    <item android:id="@+id/action_settings2"
+        android:title="@string/action_settings"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_settings"
+        android:title="Trial Action 2"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
